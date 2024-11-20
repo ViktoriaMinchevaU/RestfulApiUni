@@ -23,137 +23,137 @@ Here are some example data entries you can use to test the API endpoints using S
 ### Categories
 ```json
 {
-"name": "Electronics"
+  "name": "Electronics"
 }
 {
-"name": "Books"
+  "name": "Books"
 }
 {
-"name": "Clothing"
+  "name": "Clothing"
 }
 {
-"name": "Home & Kitchen"
+  "name": "Home & Kitchen"
 }
 ```
 ### Customers
 ```json
 {
-"name": "John Doe",
-"email": "john.doe@example.com"
+  "name": "John Doe",
+  "email": "john.doe@example.com"
 }
 {
-"name": "Jane Smith",
-"email": "jane.smith@example.com"
+  "name": "Jane Smith",
+  "email": "jane.smith@example.com"
 }
 {
-"name": "Bob Johnson",
-"email": "bob.johnson@example.com"
+  "name": "Bob Johnson",
+  "email": "bob.johnson@example.com"
 }
 ```
 ### Products
 ```json
 {
-"name": "Smartphone",
-"description": "Latest model smartphone with advanced features.",
-"price": 799.99,
-"categoryId": 1
+  "name": "Smartphone",
+  "description": "Latest model smartphone with advanced features.",
+  "price": 799.99,
+  "categoryId": 1
 }
 {
-"name": "Mystery Novel",
-"description": "A captivating mystery novel by a bestselling author.",
-"price": 14.99,
-"categoryId": 2
+  "name": "Mystery Novel",
+  "description": "A captivating mystery novel by a bestselling author.",
+  "price": 14.99,
+  "categoryId": 2
 }
 {
-"name": "Graphic T-Shirt",
-"description": "Comfortable cotton t-shirt with a cool graphic print.",
-"price": 19.99,
-"categoryId": 3
+  "name": "Graphic T-Shirt",
+  "description": "Comfortable cotton t-shirt with a cool graphic print.",
+  "price": 19.99,
+  "categoryId": 3
 }
 {
-"name": "Kitchen Blender",
-"description": "High-speed blender perfect for smoothies and soups.",
-"price": 129.99,
-"categoryId": 4
+  "name": "Kitchen Blender",
+  "description": "High-speed blender perfect for smoothies and soups.",
+  "price": 129.99,
+  "categoryId": 4
 }
 {
-"name": "Laptop",
-"description": "High-performance laptop suitable for gaming and work.",
-"price": 1199.99,
-"categoryId": 1
+  "name": "Laptop",
+  "description": "High-performance laptop suitable for gaming and work.",
+  "price": 1199.99,
+  "categoryId": 1
 }
 {
-"name": "Science Fiction Novel",
-"description": "An exciting journey through space and time.",
-"price": 19.99,
-"categoryId": 2
+  "name": "Science Fiction Novel",
+  "description": "An exciting journey through space and time.",
+  "price": 19.99,
+  "categoryId": 2
 }
 {
-"name": "Running Sneakers",
-"description": "Lightweight sneakers ideal for daily runs.",
-"price": 69.99,
-"categoryId": 3
+  "name": "Running Sneakers",
+  "description": "Lightweight sneakers ideal for daily runs.",
+  "price": 69.99,
+  "categoryId": 3
 }
 {
-"name": "Coffee Maker",
-"description": "Brews coffee quickly and keeps it hot.",
-"price": 79.99,
-"categoryId": 4
+  "name": "Coffee Maker",
+  "description": "Brews coffee quickly and keeps it hot.",
+  "price": 79.99,
+  "categoryId": 4
 }
 ```
 ### Orders
 ```json
 {
-"customerId": 1,
-"items": [
-{
-"productId": 1,
-"quantity": 1
-},
-{
-"productId": 2,
-"quantity": 2
+  "customerId": 1,
+  "items": [
+    {
+      "productId": 1,
+      "quantity": 1
+    },
+    {
+      "productId": 2,
+      "quantity": 2
+    }
+  ]
 }
-]
+{
+  "customerId": 2,
+  "items": [
+    {
+      "productId": 3,
+      "quantity": 3
+    }
+  ]
 }
 {
-"customerId": 2,
-"items": [
-{
-"productId": 3,
-"quantity": 3
-}
-]
+  "customerId": 3,
+  "items": [
+    {
+      "productId": 4,
+      "quantity": 1
+    }
+  ]
 }
 {
 "customerId": 3,
-"items": [
-{
-"productId": 4,
-"quantity": 1
-}
-]
-}
-{
-"customerId": 3,
-"items": [
-{
-"productId": 7,
-"quantity": 2
-}
-]
+  "items": [
+    {
+      "productId": 7,
+      "quantity": 2
+    }
+  ]
 }
 {
-"customerId": 2,
-"items": [
-{
-"productId": 5,
-"quantity": 1
-},
-{
-"productId": 6,
-"quantity": 1
-}
-]
+  "customerId": 2,
+  "items": [
+    {
+      "productId": 5,
+      "quantity": 1
+    },
+    {
+      "productId": 6,
+      "quantity": 1
+    }
+  ]
 }
 ```
