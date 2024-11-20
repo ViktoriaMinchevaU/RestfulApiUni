@@ -21,7 +21,7 @@ ECommerceApi is a RESTful web service designed for managing an e-commerce platfo
 Here are some example data entries you can use to test the API endpoints using Swagger:
 
 ### Categories
-
+```json
 {
 "name": "Electronics"
 }
@@ -34,9 +34,9 @@ Here are some example data entries you can use to test the API endpoints using S
 {
 "name": "Home & Kitchen"
 }
-
+```
 ### Customers
-
+```json
 {
 "name": "John Doe",
 "email": "john.doe@example.com"
@@ -49,9 +49,9 @@ Here are some example data entries you can use to test the API endpoints using S
 "name": "Bob Johnson",
 "email": "bob.johnson@example.com"
 }
-
+```
 ### Products
-
+```json
 {
 "name": "Smartphone",
 "description": "Latest model smartphone with advanced features.",
@@ -100,9 +100,9 @@ Here are some example data entries you can use to test the API endpoints using S
 "price": 79.99,
 "categoryId": 4
 }
-
+```
 ### Orders
-
+```json
 {
 "customerId": 1,
 "items": [
@@ -156,3 +156,4 @@ Here are some example data entries you can use to test the API endpoints using S
 }
 ]
 }
+```
